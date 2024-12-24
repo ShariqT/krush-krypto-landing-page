@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krush KryptoRecords</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'custom-purple': '#9333EA',
+                        'custom-blue': '#3B82F6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-custom-purple to-custom-blue bg-opacity-90 flex items-center justify-center p-4">
+    <div class="relative w-full max-w-3xl mx-auto text-white z-10">
+        <h1 class="text-4xl md:text-6xl font-bold text-center mb-12">Its all love!</h1>
+        <p class="text-center text-gray-200 mb-12 text-2xl">
+           We appreciate the interest in our game. Best believe that our asses are hard at work. Follow the development on Spill and Bluesky.
+        </p>
+        <div class="flex flex-col md:flex-row items-center gap-6 mb-12">
+            <div class="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
+                <img src="/static/don-dolla.png" width="200" height="200" alt="Don Dolla" class="w-full h-full object-cover">
+            </div>
+            <div class="flex-1 text-center md:text-left">
+                <h2 class="text-2xl font-bold">Don Dolla</h2>
+                <p class="text-gray-200 mb-4">CEO of Krush Krypto Records</p>
+                <blockquote class="text-lg italic">
+                    " I got the money, all I need is someone to find the artists and market the records. We don't do whack stuff, so do this right, B"
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- <form id="emailForm" class="space-y-4">
+            <input type="email" placeholder="Enter your email" required
+                class="w-full px-6 py-4 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50">
+            <button type="submit"
+                class="w-full px-6 py-4 rounded-lg bg-black text-white font-semibold hover:bg-black/80 transition-colors">
+                Let me know when these niggas release this game
+            </button>
+        </form> -->
+
+        <footer class="mt-20 text-center text-sm text-white/70">
+            © 2024 Krush Krypto Records. All rights reserved.
+        </footer>
+    </div>
+
+    <div class="absolute inset-0 z-0">
+        <img src="/static/low-rider.png" alt="Background" width="1920" height="1086" class="object-cover w-full h-full">
+        <div class="absolute inset-0 bg-gradient-to-b from-custom-purple to-custom-blue opacity-30"></div>
+    </div>
+</body>
+</html>
